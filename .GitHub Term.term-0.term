@@ -11,4 +11,37 @@ git: 'in^C' is not a git command. See 'git --help'.
 
 The most similar command is
 	init
-(base) ]0;~/Project/github_sites/Robert[01;34m~/Project/github_sites/Robert[00m$ 
+(base) ]0;~/Project/github_sites/Robert[01;34m~/Project/github_sites/Robert[00m$ git add -A
+(base) ]0;~/Project/github_sites/Robert[01;34m~/Project/github_sites/Robert[00m$ cat README.md
+WASSUP
+(base) ]0;~/Project/github_sites/Robert[01;34m~/Project/github_sites/Robert[00m$ git commit -m 'first o[Kcommit;[K'
+[master (root-commit) aff336d] first commit
+ 4 files changed, 16 insertions(+)
+ create mode 100644 .2022-07-08-103610.term-0.term
+ create mode 100644 .GitHub Term.term-0.term
+ create mode 100644 GitHub Term.term
+ create mode 100644 README.md
+(base) ]0;~/Project/github_sites/Robert[01;34m~/Project/github_sites/Robert[00m$ git remote add origin https://github.com/RHelmsen/RHelmsen.github.io.git
+(base) ]0;~/Project/github_sites/Robert[01;34m~/Project/github_sites/Robert[00m$ git branch -M main
+(base) ]0;~/Project/github_sites/Robert[01;34m~/Project/github_sites/Robert[00m$ git push -u origin main[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksh
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+(base) ]0;~/Project/github_sites/Robert[01;34m~/Project/github_sites/Robert[00m$     git push --set-upstream origin main[C[1P[1P[1P[C[1P
+Username for 'https://github.com': RHelmsen
+Password for 'https://RHelmsen@github.com': 
+Enumerating objects: 6, done.
+Counting objects:  16% (1/6)Counting objects:  33% (2/6)Counting objects:  50% (3/6)Counting objects:  66% (4/6)Counting objects:  83% (5/6)Counting objects: 100% (6/6)Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  66% (4/6)Writing objects:  83% (5/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 683 bytes | 683.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), done.[K
+To https://github.com/RHelmsen/RHelmsen.github.io.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+(base) ]0;~/Project/github_sites/Robert[01;34m~/Project/github_sites/Robert[00m$ (base) ]0;~/Project/github_sites/Robert[01;34m~/Project/github_sites/Robert[00m$ ls
+'GitHub Term.term'   README.md   [0m[01;34mapp[0m
+(base) ]0;~/Project/github_sites/Robert[01;34m~/Project/github_sites/Robert[00m$ git remote [K[K[K[K[K[K[Kj[Kadd 
